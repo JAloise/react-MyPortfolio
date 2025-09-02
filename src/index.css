@@ -1,0 +1,7 @@
+/* asterisk targets every element */
+* {
+    box-sizing: border-box; /* includes the padding and border in the width/height*/
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit"; 
+}
