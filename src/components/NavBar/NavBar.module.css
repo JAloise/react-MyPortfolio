@@ -1,0 +1,38 @@
+@import "../../vars.css";
+
+.navbar{
+    position: relative;
+    display: flex; /*horizontal layout*/
+    align-items: center;
+    justify-content: space-between; /* spread items across full width, spreads first item at the start and last item at the ends*/
+    padding-top: 60px;
+    z-index: 2; /* ensures it's above other elements */
+    margin: 0 10%; /* top-bottom margins: 10px,right-left margins: 10px */
+   
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700; /* semi-bold */
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* this div is important when adding responsiveness */
+.menu{ 
+    display: flex; /*horizontal layout*/
+
+}
+
+.menuItems{
+    display: flex; /*horizontal layout*/
+    list-style-type: none;
+    gap: 40px;
+}
+
+/*styling the anchor tags inside your list items (the actual clickable links).*/
+.menuItems a{
+    font-size: 22px;
+    color: rgb(219, 218, 218);
+    text-decoration: none; /*remove underline*/
+}
