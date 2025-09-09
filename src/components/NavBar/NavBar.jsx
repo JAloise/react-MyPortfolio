@@ -5,14 +5,14 @@ import { getImageUrl } from "../../utils"; //import function for getting images
 //src= "../../../assets/nav/menuIcon.png"
 
 export const NavBar = () => {
-    console.log(getImageUrl("nav/menuIcon.png"))
-    
+
     //href = "/" returns to top of page when clicked
     return (<nav className= {styles.navbar}>
         <a className = {styles.title} href="/">My Portfolio</a>  
         <div className= {styles.menu}>
             
             <img className={styles.menuBtn} src= {getImageUrl("nav/menuIcon.png")} alt="Hamburger Menu Icon"/>
+            
             <ul className = {styles.menuItems}>
                 <li>
                     <a href="#about">About</a> 
