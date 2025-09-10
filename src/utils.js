@@ -3,5 +3,5 @@
 //variable "path" is the picture file name
 export const getImageUrl = (path) => {
     //return new URL(`/assets/${path}`, import.meta.url).href; //string interperlation, href returns the url as a string
-    return `/assets/${path}`;
+    return `/assets/${path}`; //use absolute path
 };
