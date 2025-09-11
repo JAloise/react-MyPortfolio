@@ -78,4 +78,10 @@ All screens less than 768px will take the styles below.
         background: linear-gradient(0deg, rgba(25, 55, 109, 0.2), rgba(25, 55, 109,1)100%);
         padding: 18px;
     }
+
+    .menuOpen{
+        display: flex; /*show menu items when menuOpen class is added*/
+        z-index: 1;
+        
+    }
 }

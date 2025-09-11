@@ -15,13 +15,20 @@ export const NavBar = () => {
     //console.log(getImageUrl("nav/menuIcon.png")); //test if function works
 
     //href = "/" returns to top of page when clicked
+
+    //Provide functionality to hamburger button, useState
+    //menuOpen: Current value; setMenuOpen: Function to update the value; useState: React hook to manage state
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (<nav className= {styles.navbar}>
         <a className = {styles.title} href="/">My Portfolio</a>  
         <div className= {styles.menu}>
-            
-            <img className={styles.menuBtn} src= {getImageUrl("nav/menuIcon.png")} alt="Hamburger Menu Icon"/>
-            
-            <ul className = {styles.menuItems}>
+
+            {/* menuOpen is false, shows menuIcon.png, onClick will set the menuOpen to true->then displays the closeIcon.png) */}
+            <img className={styles.menuBtn} src= {menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt="Menu Icon" onClick={() => setMenuOpen(!menuOpen)}/>
+
+            {/* string interpolation. if menuOpen is false, style after && isn't applied */}
+            <ul className = {`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
                 <li>
                     <a href="#about">About</a> 
                 </li>
