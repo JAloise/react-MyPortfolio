@@ -1,5 +1,7 @@
 @import "../../vars.css";
 
+
+/*try position: fixed*/
 .navbar{
     position: relative;
     display: flex; /*horizontal layout*/
@@ -35,4 +37,45 @@
     font-size: 22px;
     color: rgb(219, 218, 218);
     text-decoration: none; /*remove underline*/
+}
+
+/*media query to add responsiveness*/
+/*
+Any screen size greater than 768px, will take the styles above. 
+All screens less than 768px will take the styles below. 
+*/
+
+@media screen and (max-width: 830px) {
+    .navbar{
+        flex-direction: column; /*stack items vertically*/
+        align-items: flex-start; /*align items to the left*/
+
+    }
+
+    .menu{
+        position: absolute;
+        right: 0px;
+        margin-right: 10%; 
+        flex-direction: column; /*stack items vertically*/
+        align-items: flex-end; /*align items to the right*/
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menuBtn{
+        display: block;
+        cursor: pointer; /*cursor changes to pointer when hovering over the image*/
+
+    }
+
+    .menuItems{
+        flex-direction:  column; /*stack items vertically*/
+        align-items: center; /*center items*/
+        display: none; /*hide menu items by default*/
+        gap: 10px;
+        border-radius: 16px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2), rgba(25, 55, 109,1)100%);
+        padding: 18px;
+    }
 }
