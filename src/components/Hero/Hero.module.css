@@ -63,7 +63,7 @@
 }
 
 .topBlur {
-  position: absolute; /*  */
+  position: absolute;
   width: 50vw;
   height: 50vw;
   min-width: 350px;
@@ -92,7 +92,6 @@
 
 @media screen and (max-width: 830px) {
     .container{
-       
         flex-direction: column-reverse; /*vertical layout, picture at top instead of below text*/
     }
 
