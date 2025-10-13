@@ -3,7 +3,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(15, 15, 15, 0.6); /* change to black */
+    background-color: rgba(12, 9, 34, 0.379); /* change to black */
     border-radius: 16px;
     padding: 70px;
     margin-top: 129px;
@@ -66,5 +66,23 @@
 }
 
 @media screen and (max-width: 830px){
-    
+    .container{
+        background-color: transparent; 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .items{
+        margin-top: 19px;
+    }
+
+    .item{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
