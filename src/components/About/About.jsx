@@ -5,7 +5,7 @@ import {getImageUrl} from "../../utils";
 
 export const About = () => {
   return (
-    <section className= {styles.container} id = "about">
+    <section className= {styles.container} id = "about"> {/*having the id, allows to click the 'about' link in navbar*/}
       <h2 className = {styles.title}>About Me</h2>
       <div className = {styles.content}>
         <ul className = {styles.items}>
