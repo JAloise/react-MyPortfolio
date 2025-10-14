@@ -1,7 +1,8 @@
-import styles from './App.module.css'
-import { NavBar } from './components/NavBar/NavBar'
-import {Hero} from './components/Hero/Hero'
-import { About } from "./components/About/About"
+import styles from './App.module.css';
+import { NavBar } from './components/NavBar/NavBar';
+import {Hero} from './components/Hero/Hero';
+import { About } from "./components/About/About";
+import { Experience } from "./components/Experience/Experience";
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
       <NavBar/>
       <Hero/>
       <About/>
+      <Experience/>
     </div>
-  )
+  );
 }
 
-export default App 
+export default App; 
