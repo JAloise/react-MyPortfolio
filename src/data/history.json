@@ -1,34 +1,41 @@
 [
     {
-        "role": "",
-        "company": "",
-        "startDate": "",
-        "endDate": "",
-        "jobDescription": "",
+        "role": "Digital Project Intern",
+        "company": "Alstom",
+        "startDate": "April 2024",
+        "endDate": "April 2025",
+        "jobDescription": ["Designed and enhanced application pages in Power Apps, improving functionality, and user experience.",
+        "Automated data entry by developing a Microsoft workflow to extract key variables from JSON emails and insert them into a relational database.",
+        "Optimized data extraction solutions to enhance the accuracy of on-time performance metrics for a visualization dashboard."],
         "imgsource": ""
     },
     {
-        "role": "",
-        "company": "",
-        "startDate": "",
-        "endDate": "",
-        "jobDescription": "",
+        "role": "Azure DevOps Intern",
+        "company": "Desjardins",
+        "startDate": "January 2023",
+        "endDate": "Apirl 2023",
+        "jobDescription": ["Developed Azure DevOps pipelines to test Terraform code for AML module.",
+        "Managed Azure resource groups and provided feedback for infrastructure improvements.",
+        "Participated in Agile ceremonies including daily Scrums, sprint reviews, and backlog grooming to support collaborative development."],
         "imgsource": ""
     },
     {
-        "role": "",
-        "company": "",
-        "startDate": "",
-        "endDate": "",
-        "jobDescription": "",
+        "role": "Developer (Internship)",
+        "company": "CAE Inc.",
+        "startDate": "May 2022",
+        "endDate": "August 2022",
+        "jobDescription": ["Developed a REST API to interface with Oracle SQL and MongoDB databases.",
+        "Implemented back-end functionality to query Oracle databases and synchronize data with MongoDB.",
+        "Tested API endpoints using Postman to ensure reliable data transfer."],
         "imgsource": ""
     },
     {
-        "role": "",
-        "company": "",
-        "startDate": "",
-        "endDate": "",
-        "jobDescription": "",
+        "role": "Python Programmer (Internship) ",
+        "company": "Bombardier",
+        "startDate": "September 2021",
+        "endDate": "December 2021",
+        "jobDescription": ["Improved Python script to generate Excel tables and schematics detailing aircraft body components.",
+        "Gained experience with CMake for building and managing project configurations."],
         "imgsource": ""
     }
 ]
